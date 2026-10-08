@@ -1,0 +1,71 @@
+import type { Depoimento } from "@/types/entities";
+
+export const testimonials: Depoimento[] = [
+  {
+    id: "dep_1",
+    autor: "Fernanda e Ricardo A.",
+    perfil: "Comprador",
+    nota: 5,
+    texto: "Encontraram exatamente o imóvel que procurávamos e acompanharam todo o processo, da visita à escritura.",
+    bairro: "Alphaville",
+    data: "2026-09-14",
+    publicado: true,
+  },
+  {
+    id: "dep_2",
+    autor: "Marcelo T.",
+    perfil: "Vendedor",
+    nota: 5,
+    texto: "Atendimento excelente e negociação muito segura. A avaliação do preço foi realista e vendemos em menos de dois meses.",
+    bairro: "Pinheiros",
+    data: "2026-08-30",
+    publicado: true,
+  },
+  {
+    id: "dep_3",
+    autor: "Juliana S.",
+    perfil: "Locatário",
+    nota: 5,
+    texto: "Aluguei sem fiador e com tudo explicado com calma. A vistoria de entrada veio com fotos e sem surpresas.",
+    bairro: "Vila Madalena",
+    data: "2026-08-21",
+    publicado: true,
+  },
+  {
+    id: "dep_4",
+    autor: "Paulo e Helena R.",
+    perfil: "Comprador",
+    nota: 5,
+    texto: "Mostraram só o que fazia sentido para a nossa família. Visitamos quatro casas em vez de vinte.",
+    bairro: "Granja Viana",
+    data: "2026-07-26",
+    publicado: true,
+  },
+  {
+    id: "dep_5",
+    autor: "Lúcia M.",
+    perfil: "Proprietário",
+    nota: 4,
+    texto: "Administram meu apartamento há três anos. Repasse sempre em dia e relatórios claros.",
+    bairro: "Butantã",
+    data: "2026-07-10",
+    publicado: true,
+  },
+  {
+    id: "dep_6",
+    autor: "André K.",
+    perfil: "Comprador",
+    nota: 5,
+    texto: "Primeiro imóvel e muitas dúvidas sobre financiamento. Me ajudaram a comparar bancos e a entender cada custo.",
+    bairro: "Osasco",
+    data: "2026-06-22",
+    publicado: true,
+  },
+];
+
+export const testimonialStats = {
+  media: 4.9,
+  total: 486,
+  negociosFechados: 1_850,
+  anosMercado: new Date().getFullYear() - 2009,
+};
